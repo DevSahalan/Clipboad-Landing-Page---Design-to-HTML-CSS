@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400&display=swap');
+
+:root{
+
+	--btn-green: rgb(38,186,164);
+    --btn-blue: rgb(97,115,255);
+    --h-color: rgb(76,84,93);
+    --text-color : rgb(170,171,178);
+    --footer-color: rgb(237,237,237);
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+	color: var(--text-color) ;
+	text-align: center;
+	font-weight: 400;
+
+}
+
+h1,h2,h3{
+	color: var(--h-color);
+	padding: 15px;
+}
+
+h2{
+	padding: 10px auto;
+}
+p{
+	padding: 10px;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex>*{
+	flex:1;
+	padding: 10px;
+}
+
+img{
+	max-width: 100%;
+}
+.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px auto;
+}
+
+.container-small{
+	width: 700px;
+	margin: 20px auto;
+	padding: 10px auto;
+}
+
+header{
+	background: url(image/bg-header-desktop.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	
+}
+.header-container{
+	width: 700px;
+	padding-top: 110px;
+	margin: 0 auto;
+}
+
+.btn {
+	padding: 20px 30px ;
+	margin: 15px 10px;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	font-weight: 600;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.btn-green{
+	background-color: var(--btn-green);
+	box-shadow: 0 5px rgb(26, 122, 108) ;
+}
+
+.btn-blue{
+	background-color: var(--btn-blue);
+	box-shadow: 0 5px rgb(68, 83, 194);
+}
+
+.footer{
+	background-color: var(--footer-color);
+	height: 20vh;
+}
+
+.google{
+	padding:15px 0;
+}
+
+.clipboard{
+	padding-bottom: 40px;
+}
+.footer img{
+	width: 60px;
+}
+
+.footer .links{
+	flex:3;
+}
+.footer .links ul{
+	display: flex;
+	
+}
+
+.footer .links ul li{
+	list-style-type: none;
+	margin: 0 20px;
+	
+	
+}
+
+.footer .links ul li a{
+	text-decoration: none;
+	color: var(--text-color);
+	font-size: 20px;
+	
+}
+
+.social ul{
+	display: flex;
+}
+.social ul li{
+	margin: 0 10px;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 24px;
+	color: var(--h-color);
+}
