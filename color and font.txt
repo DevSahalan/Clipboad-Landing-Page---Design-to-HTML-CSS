@@ -1,0 +1,7 @@
+:root {
+	--btn-green: rgb(38,186,164);
+        --btn-blue: rgb(97,115,255);
+        --h-color: rgb(76,84,93);
+        --text-color : rgb(170,171,178);
+}
+font-family: 'Bai Jamjuree', sans-serif;
