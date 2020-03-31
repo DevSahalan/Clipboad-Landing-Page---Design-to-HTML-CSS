@@ -60,6 +60,7 @@ img{
 	width: 700px;
 	margin: 20px auto;
 	padding: 10px auto;
+	max-width: 100%;
 }
 
 header{
@@ -73,6 +74,7 @@ header{
 	width: 700px;
 	padding-top: 110px;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 .btn {
@@ -142,4 +144,16 @@ header{
 	text-decoration: none;
 	font-size: 24px;
 	color: var(--h-color);
+}
+
+@media (max-width:768px)
+{
+	.flex{
+		flex-direction: column;
+	}
+	.footer .links ul{
+		flex-direction: column;
+		
+	}
+	
 }
